@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 // Importing your pages (Fixed Capitalization for Deployment!)
 import Home from './pages/Home';
 import Catalogue from './pages/Catalogue';
-import About from './pages/About'; 
+import About from './pages/about'; 
 import Contact from './pages/Contact'; 
 import Login from './pages/Login';
 import Signup from './pages/Signup'; 
