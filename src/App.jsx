@@ -8,7 +8,7 @@ import Catalogue from './pages/Catalogue';
 import About from './pages/about'; 
 import Contact from './pages/contact'; 
 import Login from './pages/Login';
-import Signup from './pages/Signup'; 
+import Signup from './pages/signup'; 
 import Dashboard from './pages/Dashboard';
 import ViewCourse from './pages/ViewCourse';
 import ProgramDetails from './pages/ProgramDetails';
