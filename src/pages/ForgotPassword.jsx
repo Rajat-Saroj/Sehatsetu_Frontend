@@ -22,7 +22,7 @@ const ForgotPassword = () => {
     setLoading(true);
     setMessage('');
     try {
-      const { data } = await axios.post('http://localhost:5000/api/auth/forgotpassword', { email });
+      const { data } = await axios.post('https://sehatsetu-api.onrender.com/api/auth/forgotpassword', { email });
       setMessage(data.message);
     } catch (error) {
       setMessage(error.response?.data?.message || 'Something went wrong');
