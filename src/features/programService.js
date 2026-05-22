@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/programs/';
+const API_URL = 'https://sehatsetu-api.onrender.com';
 
 // Fetches ALL programs for the Catalogue
 const getPrograms = async () => {
