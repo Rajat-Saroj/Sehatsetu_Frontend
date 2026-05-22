@@ -70,7 +70,7 @@ const ProgramDetails = () => {
         handler: async (response) => {
           try {
             // 1. Verify payment with your backend
-            await axios.post("http://localhost:5000/api/payment/paymentverification", {
+            await axios.post("https://sehatsetu-api.onrender.com/api/payment/paymentverification", {
               ...response,
               userId: user._id,
               programId: program._id
