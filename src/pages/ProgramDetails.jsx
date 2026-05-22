@@ -50,9 +50,9 @@ const ProgramDetails = () => {
     }
 
     try {
-      const { data: { key } } = await axios.get("http://localhost:5000/api/payment/getkey");
+      const { data: { key } } = await axios.get("https://sehatsetu-api.onrender.com/api/payment/getkey");
 
-      const { data: { order } } = await axios.post("http://localhost:5000/api/payment/checkout", {
+      const { data: { order } } = await axios.post("https://sehatsetu-api.onrender.com/api/payment/checkout", {
         amount: program.price,
         userId: user._id,       
         programId: program._id  
