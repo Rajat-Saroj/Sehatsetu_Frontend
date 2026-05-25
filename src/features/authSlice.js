@@ -13,7 +13,7 @@ const initialState = {
 };
 
 // 🎯 THE FIX: Hardcoding the backend URL so React doesn't get lost!
-const API_URL = import.meta.env.VITE_API_URL + '/api/auth/'
+const API_URL = 'https://sehatsetu-api.onrender.com/api/auth/';
 
 // Register user
 export const register = createAsyncThunk('auth/register', async (userData, thunkAPI) => {

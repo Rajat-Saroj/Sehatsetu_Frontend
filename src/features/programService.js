@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://sehatsetu-api.onrender.com';
+const API_URL = 'https://sehatsetu-api.onrender.com/api/programs/';
 
 // Fetches ALL programs for the Catalogue
 const getPrograms = async () => {
@@ -16,7 +16,7 @@ const getProgram = async (programId) => {
 
 const programService = {
   getPrograms,
-  getProgram, // <-- This is what was missing!
+  getProgram, 
 };
 
 export default programService;
